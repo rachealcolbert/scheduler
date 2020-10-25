@@ -10,7 +10,7 @@ so they can manage my time effectively
 
 https://rachealcolbert.github.io/scheduler/
 
-![](/Users/rachealcolbert/Desktop/scheduler/Assets/Images/screenshot.png)
+![](Assets/Images/screenshot.png)
 
 ## Built With
 
