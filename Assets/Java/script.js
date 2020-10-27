@@ -3,8 +3,6 @@ var NowMoment = moment();
 var eDisplayMoment = document.getElementById('currentDay');
 eDisplayMoment.innerHTML = NowMoment.format("[Today is] dddd, MMMM Do");
 
-// Change box color based on past, preset, and future time 
-
 $(".meeting-event").on("click", "p", function () {
     var text = $(this)
         .text()
@@ -29,10 +27,4 @@ $(".meeting-event").on("blur", "textarea", function () {
         .index();
     tasks[status][index].text = text;
     saveTasks();
-    var taskP = $("<p>")
-        .addClass()
-        .text(text);
-
-    // replace textarea with p element
-    $(this).replaceWith(taskP);
-});
+  
